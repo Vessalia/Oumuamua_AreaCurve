@@ -4,6 +4,7 @@ function lightMain
 %   process. This includes creation, rotation, flattening, and histogram of
 %   the ellipsoid. At the end of the process a' (or ap) is solved for. This
 %   value is the radius of the long axis of the ellipse.
+%   Credit to Ohad Gal for fit_ellipse method: https://www.mathworks.com/matlabcentral/fileexchange/3215-fit_ellipse
 
     close;
     clear;
